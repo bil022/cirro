@@ -27,7 +27,15 @@ https://cirrocumulus.readthedocs.io/en/latest/installation.html
     writing adata obs    
     writing adata obsm
 ```
-tree
+# Tree:
+
+Change: src/StaticServerApi.js
+
+return fetch('/datasets.json').then((response)
+
+to
+
+return fetch(window.DS+'/datasets.json').then((response)
 
 ```   
 .
@@ -54,4 +62,6 @@ tree
 └── static
     └── js
 ```
-Modify 
+#Compile
+
+REACT_APP_STATIC=true yarn build
