@@ -19,14 +19,39 @@ https://cirrocumulus.readthedocs.io/en/latest/installation.html
 
   cirro prepare_data V1_Human_Lymph_Node.h5ad --format jsonl
   
+```
     Using scanpy to compute markers
-  
     Computing markers for clusters
-    
     Wrote adata X 1000/18467
-    
     ...
-    
-    writing adata obs
-    
+    writing adata obs    
     writing adata obsm
+```
+tree
+
+```   
+.
+├── asset-manifest.json
+├── datasets.json
+├── datasets.php
+├── favicon.ico
+├── index.html
+├── index.php
+├── manifest.json
+├── pbmc3k
+│   ├── datasets.json
+│   ├── markers.json
+│   ├── pbmc3k
+│   ├── pbmc3k.h5ad
+│   └── results
+├── spatial
+│   ├── datasets.json
+│   ├── results
+│   ├── spatial
+│   ├── V1_Human_Lymph_Node
+│   ├── V1_Human_Lymph_Node.h5ad
+│   └── V1_Human_Lymph_Node.zip
+└── static
+    └── js
+```
+Modify 
